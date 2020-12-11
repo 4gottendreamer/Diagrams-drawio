@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T22:17:53.126Z" agent="5.0 (Windows)" etag="Y_zJ1nsIsh-Ypm6JRF4l" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T22:32:29.791Z" agent="5.0 (Windows)" etag="C1CyykYXyEb0-_YmLGqY" version="14.0.1" type="github">
   <diagram id="bkQqEIbe-VhgmHZrJ1t0" name="Page-1">
-    <mxGraphModel dx="681" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="477" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,8 +195,8 @@
         <mxCell id="fqr5YVxQ2FodwoZgZFr7-1" value="&lt;div&gt;Начало&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Consolas;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iHEAeSneq3tE51cVCp4O-1" value="&lt;div&gt;DigitsNumber(_A)&lt;/div&gt;&lt;div&gt;// Возвращает&lt;/div&gt;&lt;div&gt;// количество цифр&lt;/div&gt;&lt;div&gt;// числа _A&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="170" y="30" width="50" height="60" as="geometry" />
+        <mxCell id="iHEAeSneq3tE51cVCp4O-1" value="&lt;div&gt;DigitsNumber(_A)&lt;/div&gt;&lt;div&gt;// Возвращает&lt;/div&gt;&lt;div&gt;// количество цифр&lt;/div&gt;&lt;div&gt;// числа _A&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Consolas;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="30" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-5" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Consolas;" edge="1" parent="1" source="iHEAeSneq3tE51cVCp4O-2" target="iHEAeSneq3tE51cVCp4O-4">
           <mxGeometry x="0.1111" relative="1" as="geometry">
@@ -232,7 +232,10 @@
         <mxCell id="iHEAeSneq3tE51cVCp4O-11" value="_A" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="95" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iHEAeSneq3tE51cVCp4O-15" value="Пока _A != 0" style="shape=loopLimit;whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
+        <mxCell id="iHEAeSneq3tE51cVCp4O-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=Consolas;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iHEAeSneq3tE51cVCp4O-15" target="iHEAeSneq3tE51cVCp4O-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iHEAeSneq3tE51cVCp4O-15" value="&lt;div&gt;Цикл пока&lt;/div&gt;&lt;div&gt;_A != 0&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="170" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Consolas;" edge="1" parent="1" source="iHEAeSneq3tE51cVCp4O-16" target="iHEAeSneq3tE51cVCp4O-15">
@@ -241,14 +244,19 @@
         <mxCell id="iHEAeSneq3tE51cVCp4O-16" value="count := 0" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;fontFamily=Consolas;" vertex="1" parent="1">
           <mxGeometry x="210" y="125" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="iHEAeSneq3tE51cVCp4O-18" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;arcSize=0;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="210" y="330" width="100" height="40" as="geometry" />
+        <mxCell id="iHEAeSneq3tE51cVCp4O-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=Consolas;" edge="1" parent="1" source="iHEAeSneq3tE51cVCp4O-20" target="iHEAeSneq3tE51cVCp4O-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-20" value="&lt;div&gt;count := count + 1;&lt;br&gt;&lt;/div&gt;&lt;div&gt;_A := [_A/10]&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="210" y="220" width="100" height="50" as="geometry" />
+          <mxGeometry x="210" y="225" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iHEAeSneq3tE51cVCp4O-21" value="&lt;div&gt;Целая часть&lt;/div&gt;&lt;div&gt;от деления&lt;/div&gt;&lt;div&gt;_A на 10&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="320" y="215" width="50" height="60" as="geometry" />
+        <mxCell id="iHEAeSneq3tE51cVCp4O-21" value="&lt;div&gt;Целая часть&lt;/div&gt;&lt;div&gt;от деления&lt;/div&gt;&lt;div&gt;_A на 10&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Consolas;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="215" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iHEAeSneq3tE51cVCp4O-24" value="&lt;div&gt;Конец цикла&lt;/div&gt;" style="shape=loopLimit;html=1;rounded=0;fontFamily=Consolas;arcSize=0;rotation=0;editable=1;movableLabel=1;comic=0;direction=west;flipH=0;flipV=0;verticalAlign=top;horizontal=1;whiteSpace=wrap;dropTarget=0;sketch=0;noLabel=0;overflow=visible;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="100" height="40" as="geometry">
+            <mxPoint x="0.9999999999999998" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
