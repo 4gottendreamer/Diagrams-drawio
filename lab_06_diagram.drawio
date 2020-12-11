@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T23:11:11.552Z" agent="5.0 (Windows)" etag="aRUyN6pYwyLJ67dPd4ig" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T23:12:55.617Z" agent="5.0 (Windows)" etag="KNKKhJYYp4k1ezg4rOYR" version="14.0.1" type="github">
   <diagram id="bkQqEIbe-VhgmHZrJ1t0" name="Page-1">
-    <mxGraphModel dx="1192" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="397" dy="281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,6 +226,9 @@
         </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-80" value="A" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="622" y="70" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iHEAeSneq3tE51cVCp4O-83" value="&lt;div&gt;&quot;Максимальный индекс&quot;&lt;/div&gt;&lt;div&gt;MaxDigitsIndex&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="660" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
