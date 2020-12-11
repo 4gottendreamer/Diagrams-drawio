@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T22:32:29.791Z" agent="5.0 (Windows)" etag="C1CyykYXyEb0-_YmLGqY" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T22:34:30.096Z" agent="5.0 (Windows)" etag="NZ7vMTtN2LxDiZLgVTbq" version="14.0.1" type="github">
   <diagram id="bkQqEIbe-VhgmHZrJ1t0" name="Page-1">
-    <mxGraphModel dx="477" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="681" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,10 +221,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-4" value="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="355" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-6" value="&lt;div&gt;Начало&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="40" y="390" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="455" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Consolas;" edge="1" parent="1" source="iHEAeSneq3tE51cVCp4O-11" target="iHEAeSneq3tE51cVCp4O-2">
           <mxGeometry relative="1" as="geometry" />
@@ -253,10 +253,24 @@
         <mxCell id="iHEAeSneq3tE51cVCp4O-21" value="&lt;div&gt;Целая часть&lt;/div&gt;&lt;div&gt;от деления&lt;/div&gt;&lt;div&gt;_A на 10&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Consolas;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="215" width="50" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="iHEAeSneq3tE51cVCp4O-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=Consolas;" edge="1" parent="1" source="iHEAeSneq3tE51cVCp4O-24" target="iHEAeSneq3tE51cVCp4O-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iHEAeSneq3tE51cVCp4O-24" value="&lt;div&gt;Конец цикла&lt;/div&gt;" style="shape=loopLimit;html=1;rounded=0;fontFamily=Consolas;arcSize=0;rotation=0;editable=1;movableLabel=1;comic=0;direction=west;flipH=0;flipV=0;verticalAlign=top;horizontal=1;whiteSpace=wrap;dropTarget=0;sketch=0;noLabel=0;overflow=visible;align=center;" vertex="1" parent="1">
           <mxGeometry x="210" y="290" width="100" height="40" as="geometry">
             <mxPoint x="0.9999999999999998" y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iHEAeSneq3tE51cVCp4O-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;fontFamily=Consolas;" edge="1" parent="1" source="iHEAeSneq3tE51cVCp4O-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHEAeSneq3tE51cVCp4O-27" value="count" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="355" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
