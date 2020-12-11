@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T22:34:30.096Z" agent="5.0 (Windows)" etag="NZ7vMTtN2LxDiZLgVTbq" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T22:38:13.346Z" agent="5.0 (Windows)" etag="8_G7vyocRUzE-tlt2q57" version="14.0.1" type="github">
   <diagram id="bkQqEIbe-VhgmHZrJ1t0" name="Page-1">
-    <mxGraphModel dx="681" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="822" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="Fq7ygxc2qLZX_tcr9OD_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;fontFamily=Consolas;" parent="1" source="Fq7ygxc2qLZX_tcr9OD_-29" target="Fq7ygxc2qLZX_tcr9OD_-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fq7ygxc2qLZX_tcr9OD_-29" value="random := pow(-1, i) * M_PI;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; a[i] := (rand() % DIVISOR) / random;" style="whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Consolas;" parent="1" vertex="1">
+        <mxCell id="Fq7ygxc2qLZX_tcr9OD_-29" value="&lt;div&gt;RandomizeMe := rand();&lt;br&gt;&lt;/div&gt;&lt;div&gt;a[i] := RandomizeMe % DIVISOR * sin(RandomizeMe);&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Consolas;" parent="1" vertex="1">
           <mxGeometry x="430" y="435" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fq7ygxc2qLZX_tcr9OD_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Consolas;" parent="1" source="Fq7ygxc2qLZX_tcr9OD_-33" target="Fq7ygxc2qLZX_tcr9OD_-28" edge="1">
@@ -71,14 +71,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fq7ygxc2qLZX_tcr9OD_-33" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;i+1, a[i]&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontFamily=Consolas;" parent="1" vertex="1">
-          <mxGeometry x="485" y="515" width="120" height="60" as="geometry" />
+        <mxCell id="Fq7ygxc2qLZX_tcr9OD_-33" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;i, a[i], DigitsNumber(a[i])&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;fontFamily=Consolas;" parent="1" vertex="1">
+          <mxGeometry x="460" y="515" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fq7ygxc2qLZX_tcr9OD_-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;fontFamily=Consolas;" parent="1" source="Fq7ygxc2qLZX_tcr9OD_-36" target="Fq7ygxc2qLZX_tcr9OD_-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fq7ygxc2qLZX_tcr9OD_-36" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;&quot;Последовательность&lt;/div&gt;&lt;div&gt;псевдослучайных чисел&quot;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=0;fontFamily=Consolas;" parent="1" vertex="1">
-          <mxGeometry x="460" y="255" width="170" height="60" as="geometry" />
+          <mxGeometry x="450" y="255" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fq7ygxc2qLZX_tcr9OD_-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#000000;strokeWidth=1;fontFamily=Consolas;" parent="1" source="Fq7ygxc2qLZX_tcr9OD_-40" target="Fq7ygxc2qLZX_tcr9OD_-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
