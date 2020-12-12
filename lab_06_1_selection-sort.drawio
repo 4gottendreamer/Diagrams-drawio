@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T17:05:50.571Z" agent="5.0 (Windows)" version="14.0.1" etag="TAGJIkN8sUK3MuYi-peV" type="github"><diagram id="jJN2-YR1qqHn-e9BybVK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-12T17:39:54.528Z" agent="5.0 (Windows)" etag="jqVQxFjsBY1rHnYTfuqg" version="14.0.1" type="github">
+  <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
+    <mxGraphModel dx="477" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zWPFmJT7cU66MBOUrcfU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;" edge="1" parent="1" source="zWPFmJT7cU66MBOUrcfU-1" target="zWPFmJT7cU66MBOUrcfU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPFmJT7cU66MBOUrcfU-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPFmJT7cU66MBOUrcfU-4" value="i := 0; i &amp;lt; N" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
