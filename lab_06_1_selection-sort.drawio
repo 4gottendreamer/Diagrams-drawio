@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T17:42:38.641Z" agent="5.0 (Windows)" etag="emhB20lQ5oIc-mkjBvj-" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-12T17:42:57.696Z" agent="5.0 (Windows)" etag="pyWIveumQvYwslaGkc8y" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
     <mxGraphModel dx="568" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="zWPFmJT7cU66MBOUrcfU-6" value="i_min := i" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="160" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zWPFmJT7cU66MBOUrcfU-8" value="j := 0; j &amp;lt; N" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
+        <mxCell id="zWPFmJT7cU66MBOUrcfU-8" value="&lt;div&gt;j := i + 1;&lt;/div&gt;&lt;div&gt;j &amp;lt; N&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="210" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
