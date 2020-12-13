@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T19:16:06.759Z" agent="5.0 (Windows)" etag="c-ldvJuR-70EHCJMYxFy" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-13T09:46:33.144Z" agent="5.0 (Windows)" etag="kaET8HVOnRbEP8y7b8Ij" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="681" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="822" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ewhmWZQ15t1gIjezQmMT-10" value="&lt;div&gt;j := 1;&lt;/div&gt;&lt;div&gt;j &amp;lt; N - i&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
+        <mxCell id="ewhmWZQ15t1gIjezQmMT-10" value="&lt;div&gt;j := 1;&lt;/div&gt;&lt;div&gt;j &amp;lt; N - 1 - i&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="368" y="170" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ewhmWZQ15t1gIjezQmMT-11" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ewhmWZQ15t1gIjezQmMT-13" target="ewhmWZQ15t1gIjezQmMT-20">
