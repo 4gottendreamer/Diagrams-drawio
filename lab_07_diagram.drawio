@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T13:15:53.287Z" agent="5.0 (Windows)" etag="M-EdSdLoU4djo1bq-srU" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T13:16:45.512Z" agent="5.0 (Windows)" etag="yFR5Vfyth_08-tz_GDuS" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="993" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="681" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,8 +76,16 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-4" value="MaxIndex:=0" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="88" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-8" value="&lt;div&gt;*_Array&lt;/div&gt;&lt;div&gt;_M&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="88" y="520" width="120" height="60" as="geometry" />
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="148" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-8" value="MaxIndex" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="88" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-9" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="88" y="585" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
