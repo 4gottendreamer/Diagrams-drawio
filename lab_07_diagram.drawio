@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T18:39:29.520Z" agent="5.0 (Windows)" etag="Tnlc6_1x2b66mCBzYhYd" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T18:41:03.356Z" agent="5.0 (Windows)" etag="Gp-zuwkOE3NFP1U-nww7" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
     <mxGraphModel dx="477" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -521,8 +521,8 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-131" value="MaxFirst != MaxLast" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="591" y="3040" width="152" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-132" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="607" y="3150" width="120" height="60" as="geometry" />
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-132" value="&lt;div&gt;MaxFirst,&lt;/div&gt;&lt;div&gt;ColumnIndices[MaxFirst],&lt;/div&gt;&lt;div&gt;MaxLast,&lt;/div&gt;&lt;div&gt;ColumnIndices[MaxLast]&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="3150" width="146" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
