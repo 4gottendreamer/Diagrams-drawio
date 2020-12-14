@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T14:25:27.427Z" agent="5.0 (Windows)" etag="rttBaSt2HbmoGoZ_qZ7f" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T18:22:45.476Z" agent="5.0 (Windows)" etag="fYb7Zi6pZ8q84AmK7Ibc" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="993" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="822" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-24" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;*_Array&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;_M&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="fMAf0AQXnJGZOiMmoHYG-41">
           <mxGeometry x="58" y="82" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-12" value="П" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=10;" edge="1" parent="fMAf0AQXnJGZOiMmoHYG-41" source="fMAf0AQXnJGZOiMmoHYG-13" target="fMAf0AQXnJGZOiMmoHYG-24">
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=10;" edge="1" parent="fMAf0AQXnJGZOiMmoHYG-41" source="fMAf0AQXnJGZOiMmoHYG-13" target="fMAf0AQXnJGZOiMmoHYG-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=10;" edge="1" parent="fMAf0AQXnJGZOiMmoHYG-41" source="fMAf0AQXnJGZOiMmoHYG-26" target="fMAf0AQXnJGZOiMmoHYG-16">
@@ -418,6 +418,15 @@
         </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-102" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;_A[i][j]&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="488" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-104" target="fMAf0AQXnJGZOiMmoHYG-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-104" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Consolas;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-105" value="M, N, A[M][N], ColumnIndices[N], " style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
