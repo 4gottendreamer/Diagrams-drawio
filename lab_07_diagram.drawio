@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T18:24:41.106Z" agent="5.0 (Windows)" etag="aTj9CqRLUcwikgwnm9LK" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T18:28:11.846Z" agent="5.0 (Windows)" etag="aLHLNha0ErqSE6y6Mlg0" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="822" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="397" dy="281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,7 +428,7 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-105" target="fMAf0AQXnJGZOiMmoHYG-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-105" value="M, N, A[M][N], ColumnIndices[N], bIsThereAnyZero := false" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-105" value="&lt;div&gt;M, N, a[M][N], ColumnIndices[N], bIsThereAnyZero := false,&lt;/div&gt;&lt;div&gt;RESIDUE := 10&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-107" target="fMAf0AQXnJGZOiMmoHYG-109">
@@ -437,8 +437,26 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-107" value="i := 0; i &amp;lt; N" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="1970" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-109" target="fMAf0AQXnJGZOiMmoHYG-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-109" value="j := 0; j &amp;lt; M" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="2040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-111" target="fMAf0AQXnJGZOiMmoHYG-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-111" value="A[i][j] := rand() % RESIDUE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-113" target="fMAf0AQXnJGZOiMmoHYG-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-113" value="a[i][j] = 0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="338" y="2200" width="152" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-115" value="&lt;div&gt;&amp;nbsp;ColumnIndices[j] :=&amp;nbsp; ColumnIndices[j] + 1;&lt;/div&gt;&lt;div&gt;bIsThereAnyZero = true&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
