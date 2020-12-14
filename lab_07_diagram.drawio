@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T18:44:51.800Z" agent="5.0 (Windows)" etag="agxYa60WfTX3LoQOMzEd" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T18:51:43.642Z" agent="5.0 (Windows)" etag="0Vy4IrXE4PszVe6TsaA-" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="397" dy="281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,6 +504,11 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-123" value="&lt;div&gt;MaxFirst = MaxElementIndexFirst(&lt;/div&gt;&lt;div&gt;ColumnIndices, N)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="584" y="2880" width="166" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-125" target="fMAf0AQXnJGZOiMmoHYG-151">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179.9999999999999" y="2970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-125" value="&quot;Нули в массиве отсутствуют&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="2880" width="120" height="60" as="geometry" />
         </mxCell>
@@ -542,6 +547,9 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-136" value="&lt;div&gt;BackwardsSwapColumn(&lt;/div&gt;&lt;div&gt;a, M, N, MaxLast)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="584" y="3310" width="166" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-138" target="fMAf0AQXnJGZOiMmoHYG-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-138" value="&quot;Массив с обратным порядком элементов в столбцах:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="607" y="3390" width="120" height="60" as="geometry" />
         </mxCell>
@@ -551,8 +559,52 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-140" value="&lt;div&gt;MaxFirst,&lt;/div&gt;&lt;div&gt;ColumnIndices[MaxFirst]&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="414" y="3050" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-142" target="fMAf0AQXnJGZOiMmoHYG-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-142" value="&lt;div&gt;BackwardsSwapColumn(&lt;/div&gt;&lt;div&gt;a, M, N, MaxFirst)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="418" y="3130" width="142" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-144" target="fMAf0AQXnJGZOiMmoHYG-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="489" y="3350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-144" value="&quot;Массив с обратным порядком элементов в столбце:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="429" y="3220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-148" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="469" y="3330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-151" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2970" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-152" target="fMAf0AQXnJGZOiMmoHYG-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-152" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="394" y="3550" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-153" target="fMAf0AQXnJGZOiMmoHYG-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-153" value="i := 0; i &amp;lt; N" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="3620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-158" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-155" target="fMAf0AQXnJGZOiMmoHYG-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-160" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-155" target="fMAf0AQXnJGZOiMmoHYG-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-155" value="&lt;div&gt;i = MaxFirst ||&lt;/div&gt;&lt;div&gt;i = MaxLast&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="338" y="3680" width="152" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-157" value="&lt;div&gt;Вывод:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;*&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="586" y="3690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-159" value="&lt;div&gt;Вывод:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="122" y="3690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
