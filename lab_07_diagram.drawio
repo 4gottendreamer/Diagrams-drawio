@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T13:16:45.512Z" agent="5.0 (Windows)" etag="yFR5Vfyth_08-tz_GDuS" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T13:17:18.097Z" agent="5.0 (Windows)" etag="DkcR2wqD5QllS9YmnNjR" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="681" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="822" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,11 @@
         <mxCell id="ewhmWZQ15t1gIjezQmMT-2" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Consolas;" parent="1" vertex="1">
           <mxGeometry x="88" y="10" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ewhmWZQ15t1gIjezQmMT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="fMAf0AQXnJGZOiMmoHYG-8" edge="1">
+        <mxCell id="ewhmWZQ15t1gIjezQmMT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ewhmWZQ15t1gIjezQmMT-5" target="fMAf0AQXnJGZOiMmoHYG-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="148" y="750" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="415" />
+              <mxPoint x="260" y="250" />
               <mxPoint x="260" y="500" />
               <mxPoint x="148" y="500" />
             </Array>
@@ -76,7 +76,7 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-4" value="MaxIndex:=0" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="88" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-8">
+        <mxCell id="fMAf0AQXnJGZOiMmoHYG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-8" target="fMAf0AQXnJGZOiMmoHYG-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="148" y="580" as="targetPoint" />
           </mxGeometry>
