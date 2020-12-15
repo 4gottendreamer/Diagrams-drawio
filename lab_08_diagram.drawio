@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T08:15:54.052Z" agent="5.0 (Windows)" etag="S6TywUW5AN0gNYC0Lv2T" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T08:16:48.254Z" agent="5.0 (Windows)" etag="UzrE5_tAvLMRdAPhcM_O" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="2019" dy="-326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="-588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,7 +540,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-56" value="_A[_i + 1][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-56" value="_A[_i][_j + 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="368" y="2760" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-57" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-59">
@@ -564,7 +564,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-59" value="_A[_i + 1][_j] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-59" value="_A[_i + 1][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="368" y="2850" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-62" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=9;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-60" target="s9nZQQE5in6NOD8knwnm-61">
@@ -578,7 +578,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-60" value="_A[_i + 1][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-60" value="_A[_i + 1][_j] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="368" y="2940" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-64" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=9;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-61" target="s9nZQQE5in6NOD8knwnm-63">
@@ -586,7 +586,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-61" value="_A[_i + 1][_j] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-61" value="_A[_i + 1][_j + 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="368" y="3030" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-63" value="true" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Consolas;" vertex="1" parent="1">
