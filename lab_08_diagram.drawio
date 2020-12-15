@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T07:47:56.992Z" agent="5.0 (Windows)" etag="s4iipkG6xB_zlwt57QxL" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T07:49:16.497Z" agent="5.0 (Windows)" etag="hhdsJ6KuRvP8Q3sNQUvS" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="1649" dy="-588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="-888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -365,8 +365,20 @@
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-62" value="&lt;div style=&quot;font-size: 10px&quot;&gt;IsNeighbourAround4fools&lt;/div&gt;// Проверка на &quot;соседство&quot; элемента _A[_i[_j]&lt;br&gt;// 1 если &quot;сосед&quot; рядом, иначе 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=1;fontFamily=Consolas;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="490" y="2384" width="50" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-11" value="_j=0" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-16" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-11" target="s9nZQQE5in6NOD8knwnm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9nZQQE5in6NOD8knwnm-11" value="_i=0" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;" vertex="1" parent="1">
           <mxGeometry x="378" y="2520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9nZQQE5in6NOD8knwnm-18" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-15" target="s9nZQQE5in6NOD8knwnm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9nZQQE5in6NOD8knwnm-15" value="_j=0" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9nZQQE5in6NOD8knwnm-17" value="_j=0" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2520" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
