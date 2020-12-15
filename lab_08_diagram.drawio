@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T08:25:50.977Z" agent="5.0 (Windows)" etag="ZCfapJr01Mt5wmdY9IAs" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T08:26:36.704Z" agent="5.0 (Windows)" etag="rnIIXLOqFxUBEEz8fiOz" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
     <mxGraphModel dx="2019" dy="-326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -881,7 +881,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-128" value="_A[_i][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-128" value="_A[_i - 1][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="115" y="2750" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-129" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=9;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-131" target="s9nZQQE5in6NOD8knwnm-134">
@@ -899,7 +899,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-131" value="_A[_i + 1][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-131" value="_A[_i - 1][_j] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="115" y="2840" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-132" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-134" target="s9nZQQE5in6NOD8knwnm-135">
@@ -918,7 +918,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9nZQQE5in6NOD8knwnm-134" value="_A[_i + 1][_j] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="s9nZQQE5in6NOD8knwnm-134" value="_A[_i][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="115" y="2930" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-135" value="true" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Consolas;" vertex="1" parent="1">
