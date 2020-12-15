@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T07:47:03.496Z" agent="5.0 (Windows)" etag="0PUAMPOSY00U-8dSBCmT" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T07:47:19.408Z" agent="5.0 (Windows)" etag="Tm7wnUs6zgMlvbqRxwOs" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="1649" dy="-588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2814" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,30 +364,6 @@
         </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-62" value="&lt;div style=&quot;font-size: 10px&quot;&gt;IsNeighbourAround4fools&lt;/div&gt;// Проверка на &quot;соседство&quot; элемента _A[_i[_j]&lt;br&gt;// 1 если &quot;сосед&quot; рядом, иначе 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=1;fontFamily=Consolas;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="490" y="2384" width="50" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-63" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Consolas;fontSize=10;" parent="1" edge="1">
-          <mxGeometry x="300" y="2360" width="50" height="50" as="geometry">
-            <mxPoint x="300" y="2360" as="sourcePoint" />
-            <mxPoint x="680" y="2360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-64" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Consolas;fontSize=10;" parent="1" edge="1">
-          <mxGeometry x="300" y="2360" width="50" height="50" as="geometry">
-            <mxPoint x="300" y="2930" as="sourcePoint" />
-            <mxPoint x="300" y="2362" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-65" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Consolas;fontSize=10;" parent="1" edge="1">
-          <mxGeometry x="300" y="2360" width="50" height="50" as="geometry">
-            <mxPoint x="680" y="2930" as="sourcePoint" />
-            <mxPoint x="680" y="2362" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fMAf0AQXnJGZOiMmoHYG-66" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Consolas;fontSize=10;" parent="1" edge="1">
-          <mxGeometry x="300" y="2278" width="50" height="50" as="geometry">
-            <mxPoint x="300" y="2930" as="sourcePoint" />
-            <mxPoint x="680" y="2930" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
