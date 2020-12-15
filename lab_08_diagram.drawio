@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T08:35:03.826Z" agent="5.0 (Windows)" etag="jEnR0kX-baFk7bjt_j3W" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T08:35:32.115Z" agent="5.0 (Windows)" etag="5mQVKSVxfK-4RW1YNeGx" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
-    <mxGraphModel dx="993" dy="-466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="681" dy="-687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -817,7 +817,7 @@
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-166" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=9;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-167">
           <mxGeometry x="-0.9713" y="10" relative="1" as="geometry">
-            <mxPoint x="1190" y="3000" as="targetPoint" />
+            <mxPoint x="1190" y="3250" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1190" y="2610" />
               <mxPoint x="1190" y="2920" />
@@ -890,8 +890,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="s9nZQQE5in6NOD8knwnm-186" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Consolas;fontSize=9;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-177">
+          <mxGeometry x="0.6667" y="10" relative="1" as="geometry">
+            <mxPoint x="1190" y="3060" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-177" value="_A[_i][_j - 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1070" y="3030" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9nZQQE5in6NOD8knwnm-187" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Consolas;fontSize=9;" edge="1" parent="1" source="s9nZQQE5in6NOD8knwnm-178">
+          <mxGeometry x="-0.0071" y="10" relative="1" as="geometry">
+            <mxPoint x="1190" y="3149.8571428571427" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-178" value="_A[_i][_j + 1] = _A[_i][_j]" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Consolas;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1070" y="3120" width="100" height="60" as="geometry" />
