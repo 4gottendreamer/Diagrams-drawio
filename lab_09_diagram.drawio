@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T09:21:53.799Z" agent="5.0 (Windows)" etag="tL8kkaoi1UevRgtXhj6E" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T09:22:03.063Z" agent="5.0 (Windows)" etag="nOm3wqwU12DqRCj1e3I7" version="14.0.1" type="github">
   <diagram id="jJN2-YR1qqHn-e9BybVK" name="Page-1">
     <mxGraphModel dx="1703" dy="35" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="s9nZQQE5in6NOD8knwnm-6" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;Вывод:&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&quot;\n&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fontFamily=Consolas;fontSize=10;arcSize=0;" parent="1" vertex="1">
           <mxGeometry x="487" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5sqoFnU_Qg0MQjGhDLJk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Consolas;fontSize=10;" edge="1" parent="1" source="fMAf0AQXnJGZOiMmoHYG-44" target="fMAf0AQXnJGZOiMmoHYG-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fMAf0AQXnJGZOiMmoHYG-44" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontFamily=Consolas;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="367" y="2382" width="120" height="40" as="geometry" />
